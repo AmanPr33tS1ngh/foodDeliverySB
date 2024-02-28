@@ -1,4 +1,4 @@
-package com.foodDeliveryApp.foodDeliveryApp;
+package com.foodDeliveryApp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

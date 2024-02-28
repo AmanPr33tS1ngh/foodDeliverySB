@@ -27,7 +27,7 @@ public class Restaurant {
     @OneToOne
     private Address address;
 
-    private ContactInformation contactInformation;
+//    private ContactInformation contactInformation;
 
     private String openingHours;
 
