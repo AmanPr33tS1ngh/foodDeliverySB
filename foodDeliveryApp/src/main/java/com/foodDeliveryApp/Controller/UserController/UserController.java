@@ -1,7 +1,7 @@
-package com.foodDeliveryApp.Controller;
+package com.foodDeliveryApp.Controller.UserController;
 
 import com.foodDeliveryApp.model.User;
-import com.foodDeliveryApp.service.UserService;
+import com.foodDeliveryApp.service.UserService.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

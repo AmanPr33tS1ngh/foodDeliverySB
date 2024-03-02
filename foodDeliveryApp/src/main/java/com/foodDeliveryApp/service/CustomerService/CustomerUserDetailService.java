@@ -1,6 +1,6 @@
-package com.foodDeliveryApp.service;
+package com.foodDeliveryApp.service.CustomerService;
 
-import com.foodDeliveryApp.Repository.UserRepository;
+import com.foodDeliveryApp.Repository.UserRepo.UserRepository;
 import com.foodDeliveryApp.model.ROLE;
 import com.foodDeliveryApp.model.User;
 import org.springframework.beans.factory.annotation.Autowired;

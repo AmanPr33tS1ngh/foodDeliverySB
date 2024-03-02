@@ -1,4 +1,4 @@
-package com.foodDeliveryApp.service;
+package com.foodDeliveryApp.service.UserService;
 
 import com.foodDeliveryApp.model.User;
 

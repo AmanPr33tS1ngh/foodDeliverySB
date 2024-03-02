@@ -1,12 +1,12 @@
-package com.foodDeliveryApp.Controller;
+package com.foodDeliveryApp.Controller.AuthController;
 
 import com.foodDeliveryApp.Config.JwtProvider;
-import com.foodDeliveryApp.Repository.UserRepository;
+import com.foodDeliveryApp.Repository.UserRepo.UserRepository;
 import com.foodDeliveryApp.Request.LoginRequest;
 import com.foodDeliveryApp.Response.Response;
 import com.foodDeliveryApp.model.ROLE;
 import com.foodDeliveryApp.model.User;
-import com.foodDeliveryApp.service.CustomerUserDetailService;
+import com.foodDeliveryApp.service.CustomerService.CustomerUserDetailService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -22,7 +22,6 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.net.http.HttpResponse;
 import java.util.Collection;
 
 @RestController

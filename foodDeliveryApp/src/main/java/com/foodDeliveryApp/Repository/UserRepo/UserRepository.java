@@ -1,4 +1,4 @@
-package com.foodDeliveryApp.Repository;
+package com.foodDeliveryApp.Repository.UserRepo;
 
 import com.foodDeliveryApp.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;

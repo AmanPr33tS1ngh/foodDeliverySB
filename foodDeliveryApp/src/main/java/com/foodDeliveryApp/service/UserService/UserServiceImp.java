@@ -1,14 +1,14 @@
-package com.foodDeliveryApp.service;
+package com.foodDeliveryApp.service.UserService;
 
 import com.foodDeliveryApp.Config.JwtProvider;
-import com.foodDeliveryApp.Repository.UserRepository;
+import com.foodDeliveryApp.Repository.UserRepo.UserRepository;
 import com.foodDeliveryApp.model.User;
-import jdk.jshell.spi.ExecutionControl;
+import com.foodDeliveryApp.service.UserService.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
-public class UserServiceImp implements UserService{
+public class UserServiceImp implements UserService {
     @Autowired
     private UserRepository userRepository;
     @Autowired
@@ -17,8 +17,7 @@ public class UserServiceImp implements UserService{
     @Override
     public User findUserByJwtToken(String jwt) throws Exception {
         String email = this.jwtProvider.getEmailFromJwtToken(jwt);
-        User user = findUserByEmail(email);
-        return user;
+        return findUserByEmail(email);
     }
 
     @Override
