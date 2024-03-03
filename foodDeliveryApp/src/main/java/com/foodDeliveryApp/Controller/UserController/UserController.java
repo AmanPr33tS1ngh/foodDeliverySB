@@ -1,6 +1,6 @@
 package com.foodDeliveryApp.Controller.UserController;
 
-import com.foodDeliveryApp.model.User;
+import com.foodDeliveryApp.model.User.User;
 import com.foodDeliveryApp.service.UserService.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

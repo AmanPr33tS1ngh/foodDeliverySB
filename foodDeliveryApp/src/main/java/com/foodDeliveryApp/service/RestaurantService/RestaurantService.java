@@ -1,9 +1,9 @@
 package com.foodDeliveryApp.service.RestaurantService;
 
 import com.foodDeliveryApp.DTO.RestaurantDTO;
-import com.foodDeliveryApp.Request.CreateRestaurantReq;
-import com.foodDeliveryApp.model.Restaurant;
-import com.foodDeliveryApp.model.User;
+import com.foodDeliveryApp.Request.RestaurantReq.CreateRestaurantReq;
+import com.foodDeliveryApp.model.Restaurant.Restaurant;
+import com.foodDeliveryApp.model.User.User;
 
 import java.util.List;
 

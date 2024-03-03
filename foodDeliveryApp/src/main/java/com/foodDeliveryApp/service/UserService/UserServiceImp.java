@@ -2,8 +2,7 @@ package com.foodDeliveryApp.service.UserService;
 
 import com.foodDeliveryApp.Config.JwtProvider;
 import com.foodDeliveryApp.Repository.UserRepo.UserRepository;
-import com.foodDeliveryApp.model.User;
-import com.foodDeliveryApp.service.UserService.UserService;
+import com.foodDeliveryApp.model.User.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

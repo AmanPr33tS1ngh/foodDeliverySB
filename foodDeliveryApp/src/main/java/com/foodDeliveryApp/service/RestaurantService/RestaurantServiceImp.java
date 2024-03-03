@@ -4,17 +4,18 @@ import com.foodDeliveryApp.DTO.RestaurantDTO;
 import com.foodDeliveryApp.Repository.AddressRepo.AddressRepository;
 import com.foodDeliveryApp.Repository.RestaurantRepo.RestaurantRepository;
 import com.foodDeliveryApp.Repository.UserRepo.UserRepository;
-import com.foodDeliveryApp.Request.CreateRestaurantReq;
-import com.foodDeliveryApp.model.Address;
-import com.foodDeliveryApp.model.Restaurant;
-import com.foodDeliveryApp.model.User;
-import com.foodDeliveryApp.service.RestaurantService.RestaurantService;
+import com.foodDeliveryApp.Request.RestaurantReq.CreateRestaurantReq;
+import com.foodDeliveryApp.model.Address.Address;
+import com.foodDeliveryApp.model.Restaurant.Restaurant;
+import com.foodDeliveryApp.model.User.User;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.time.LocalDate;
 import java.util.List;
 import java.util.Optional;
 
+@Service
 public class RestaurantServiceImp implements RestaurantService {
     @Autowired
     private RestaurantRepository restaurantRepository;

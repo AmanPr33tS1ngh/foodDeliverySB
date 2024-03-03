@@ -1,6 +1,6 @@
 package com.foodDeliveryApp.Repository.UserRepo;
 
-import com.foodDeliveryApp.model.User;
+import com.foodDeliveryApp.model.User.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface UserRepository extends JpaRepository<User, Long> {

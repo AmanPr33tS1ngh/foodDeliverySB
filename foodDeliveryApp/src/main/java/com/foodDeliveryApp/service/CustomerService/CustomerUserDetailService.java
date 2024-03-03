@@ -2,7 +2,7 @@ package com.foodDeliveryApp.service.CustomerService;
 
 import com.foodDeliveryApp.Repository.UserRepo.UserRepository;
 import com.foodDeliveryApp.model.ROLE;
-import com.foodDeliveryApp.model.User;
+import com.foodDeliveryApp.model.User.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;

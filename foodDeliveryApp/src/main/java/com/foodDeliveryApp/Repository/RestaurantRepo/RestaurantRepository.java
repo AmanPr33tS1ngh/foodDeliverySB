@@ -1,6 +1,6 @@
 package com.foodDeliveryApp.Repository.RestaurantRepo;
 
-import com.foodDeliveryApp.model.Restaurant;
+import com.foodDeliveryApp.model.Restaurant.Restaurant;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 

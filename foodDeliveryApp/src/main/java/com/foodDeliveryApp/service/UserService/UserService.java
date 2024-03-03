@@ -1,6 +1,6 @@
 package com.foodDeliveryApp.service.UserService;
 
-import com.foodDeliveryApp.model.User;
+import com.foodDeliveryApp.model.User.User;
 
 
 public interface UserService {

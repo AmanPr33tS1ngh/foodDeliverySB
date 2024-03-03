@@ -1,8 +1,8 @@
 package com.foodDeliveryApp.Controller.RestaurantController;
 
 import com.foodDeliveryApp.DTO.RestaurantDTO;
-import com.foodDeliveryApp.model.Restaurant;
-import com.foodDeliveryApp.model.User;
+import com.foodDeliveryApp.model.Restaurant.Restaurant;
+import com.foodDeliveryApp.model.User.User;
 import com.foodDeliveryApp.service.RestaurantService.RestaurantService;
 import com.foodDeliveryApp.service.UserService.UserService;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -2,10 +2,10 @@ package com.foodDeliveryApp.Controller.AuthController;
 
 import com.foodDeliveryApp.Config.JwtProvider;
 import com.foodDeliveryApp.Repository.UserRepo.UserRepository;
-import com.foodDeliveryApp.Request.LoginRequest;
+import com.foodDeliveryApp.Request.LoginReq.LoginRequest;
 import com.foodDeliveryApp.Response.Response;
 import com.foodDeliveryApp.model.ROLE;
-import com.foodDeliveryApp.model.User;
+import com.foodDeliveryApp.model.User.User;
 import com.foodDeliveryApp.service.CustomerService.CustomerUserDetailService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
